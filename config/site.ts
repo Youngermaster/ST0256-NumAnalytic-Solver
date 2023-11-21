@@ -10,8 +10,12 @@ export const siteConfig = {
       href: "/",
     },
     {
-      title: "Hi",
-      href: "/",
+      title: "Métodos de Raíces",
+      href: "/metodos-de-raices",
+    },
+    {
+      title: "Playground",
+      href: "/playground",
     },
   ],
   links: {

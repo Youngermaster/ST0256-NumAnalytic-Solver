@@ -8,9 +8,7 @@ import init, { add } from "wasm-lib";
 import { useEffect, useState } from "react";
 
 export default function IndexPage() {
-  const [count, setCount] = useState(0);
   const [ans, setAns] = useState(0);
-
 
   return (
     <section className="container grid items-center gap-6 pb-8 pt-6 md:py-10">
@@ -50,7 +48,9 @@ export default function IndexPage() {
           })}>
             +69
           </Button>
-          <p>{ans} + 69 = {ans}</p>
+          <p>
+            {ans} + 69 = {ans}
+          </p>
         </div>
       </div>
     </section>
