@@ -26,7 +26,7 @@ interface MethodSelectorProps extends PopoverProps {
   methods: Method[]
 }
 
-export function MethodSelector({ methods, ...props }: MethodSelectorProps) {
+export function MethodSelector({ methods, onMethodSelect, ...props }: MethodSelectorProps) {
   const [open, setOpen] = React.useState(false)
   const [selectedMethod, setSelectedMethod] = React.useState<Method>()
   const router = useRouter()
@@ -55,6 +55,7 @@ export function MethodSelector({ methods, ...props }: MethodSelectorProps) {
                 key={method.id}
                 onSelect={() => {
                   setSelectedMethod(method)
+                  onMethodSelect(method); // Call the passed function with the selected method
                   setOpen(false)
                 }}
               >

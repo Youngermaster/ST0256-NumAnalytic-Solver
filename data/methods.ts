@@ -5,11 +5,27 @@ export interface Method {
 
 export const methods: Method[] = [
   {
-    id: "9cb0e66a-9937-465d-a188-2c4c4ae2401f",
+    id: "1",
     name: "Bisection",
   },
   {
-    id: "61eb0e32-2391-4cd3-adc3-66efe09bc0b7",
-    name: "Newton Raphson",
+    id: "2",
+    name: "Punto Fijo",
+  },
+  {
+    id: "3",
+    name: "Regla Falsa",
+  },
+  {
+    id: "4",
+    name: "Newton-Raphson",
+  },
+  {
+    id: "5",
+    name: "Secante",
+  },
+  {
+    id: "6",
+    name: "Raíces Múltiples",
   },
 ]
