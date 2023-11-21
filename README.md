@@ -85,5 +85,3 @@ El proyecto se divide en tres capítulos principales, cada uno con su propio con
  para la sustentación.
 
 - [x] Realizar la entrega final en el repositorio y añadir los nombres de los integrantes.
-
-Espero que esta estructura te sea útil para iniciar tu proyecto. Si necesitas más ayuda, especialmente con los algoritmos en Rust, no dudes en preguntar.
