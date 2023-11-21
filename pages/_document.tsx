@@ -11,19 +11,7 @@ class MyDocument extends Document {
   render() {
     return (
       <>
-        {/* <html lang="en" suppressHydrationWarning>
-          <Head>
-            <title>{siteConfig.name}</title>
-            <meta name="description" content={siteConfig.description} />
-          </Head>
-          <body>
-            <Main />
-            <NextScript />
-          </body>
-        </html> */}
-
         <Html lang="en" suppressHydrationWarning>
-          {/* <head /> */}
           <Head>
             <title>{"NumAnalytic Solver"}</title>
             <meta name="description" content={siteConfig.description} />
@@ -35,12 +23,8 @@ class MyDocument extends Document {
             )}
           >
             <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-              <div className="relative flex min-h-screen flex-col">
-                <div className="flex-1">
                   <Main />
                   <NextScript />
-                </div>
-              </div>
             </ThemeProvider>
           </body>
         </Html>

@@ -8,7 +8,6 @@ import init, { add } from "wasm-lib";
 import { useEffect, useState } from "react";
 
 export default function IndexPage() {
-  const [count, setCount] = useState(0);
   const [ans, setAns] = useState(0);
 
   return (
@@ -49,7 +48,9 @@ export default function IndexPage() {
           })}>
             +69
           </Button>
-          {ans} + 69 = {ans}
+          <p>
+            {ans} + 69 = {ans}
+          </p>
         </div>
       </div>
     </section>
