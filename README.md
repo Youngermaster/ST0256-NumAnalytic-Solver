@@ -46,9 +46,9 @@ El proyecto se divide en tres capítulos principales, cada uno con su propio con
 ### Lista de Tareas
 
 1. **Configuración Inicial del Proyecto**
-   - [ ] Crear el repositorio en GitHub.
-   - [ ] Configurar el entorno de desarrollo Rust.
-   - [ ] Configurar el proyecto React para el frontend.
+   - [x] Crear el repositorio en GitHub.
+   - [x] Configurar el entorno de desarrollo Rust.
+   - [x] Configurar el proyecto React para el frontend.
 
 2. **Desarrollo del Capítulo 1: Métodos de Raíces**
    - [ ] Implementar el método de Bisección.
