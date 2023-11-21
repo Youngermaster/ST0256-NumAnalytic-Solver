@@ -16,7 +16,8 @@ export function CodeViewer() {
       </DialogTrigger>
       <DialogContent className="sm:max-w-[625px]">
         <DialogHeader>
-          <DialogTitle>View code</DialogTitle>
+          <DialogTitle>View code (WIP) ⚠</DialogTitle>
+          <h1>In development ⚠</h1>
           <DialogDescription>
             You can use the following code to start integrating your current
             prompt and settings into your application.

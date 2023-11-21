@@ -23,8 +23,10 @@ class MyDocument extends Document {
             )}
           >
             <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-                  <Main />
-                  <NextScript />
+              <div className="flex-1">
+                <Main />
+                <NextScript />
+              </div>
             </ThemeProvider>
           </body>
         </Html>
