@@ -49,7 +49,7 @@ export default function IndexPage() {
           })}>
             +69
           </Button>
-          <p>{ans} + 69 = {ans}</p>
+          {ans} + 69 = {ans}
         </div>
       </div>
     </section>

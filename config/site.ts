@@ -13,6 +13,10 @@ export const siteConfig = {
       title: "Métodos de Raíces",
       href: "/metodos-de-raices",
     },
+    {
+      title: "Playground",
+      href: "/playground",
+    },
   ],
   links: {
     twitter: "https://twitter.com/jmyounghoyos",
