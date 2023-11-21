@@ -72,14 +72,6 @@ export default function RootMethodsPage() {
                 <TabsContent value="complete" className="mt-0 border-0 p-0">
                   <div className="flex h-full flex-col space-y-4">
                     {MethodComponent && <MethodComponent />}
-                    {/* <BisectionComponent /> */}
-                  </div>
-                </TabsContent>
-                <TabsContent value="insert" className="mt-0 border-0 p-0">
-                  <div className="flex flex-col space-y-4">
-                    <div className="grid h-full grid-rows-2 gap-6 lg:grid-cols-2 lg:grid-rows-1">
-                      <BisectionComponent />
-                    </div>
                   </div>
                 </TabsContent>
               </div>
